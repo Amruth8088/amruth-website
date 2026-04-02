@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Quiz Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: linear-gradient(to right, #ff9933, #138808, #ffffff);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .questions {
+            margin: 20px 0;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to the Secure Quiz Portal</h1>
+    </div>
+    <div class="container">
+        <h2>Instructions</h2>
+        <p>Please answer the following questions. Your responses will be recorded and can be reviewed later.</p>
+        <div class="questions">
+            <div class="question">
+                <p>1. What is the capital of France?</p>
+                <label><input type="radio" name="q1" value="a"> A) Paris</label><br>
+                <label><input type="radio" name="q1" value="b"> B) London</label><br>
+                <label><input type="radio" name="q1" value="c"> C) Rome</label><br>
+                <label><input type="radio" name="q1" value="d"> D) Berlin</label>
+            </div>
+            <div class="question">
+                <p>2. What is the largest planet in our solar system?</p>
+                <label><input type="radio" name="q2" value="a"> A) Earth</label><br>
+                <label><input type="radio" name="q2" value="b"> B) Mars</label><br>
+                <label><input type="radio" name="q2" value="c"> C) Jupiter</label><br>
+                <label><input type="radio" name="q2" value="d"> D) Saturn</label>
+            </div>
+            <!-- Additional questions should be randomized and included here -->
+        </div>
+        <button type="button">Submit</button>
+        <div class="footer">
+            <p>© 2026 Secure Quiz Portal. All rights reserved.</p>
+        </div>
+    </div>
+    <script>
+        // Anti-cheat measures, question randomization, and result handling functions to be added here.
+    </script>
+</body>
+</html>
